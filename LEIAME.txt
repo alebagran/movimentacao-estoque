@@ -1,0 +1,13 @@
+Para compilar os arquivos:
+npm run build
+
+Para rodar os testes:
+npm run test
+
+Para rodar os testes em modo watch:
+npm run test:watch
+
+Observação:
+	- "npm run" faz rodar os comandos existentes em "scripts" do package.json
+	- veja o package.json para saber o que ele roda em cada um
+	

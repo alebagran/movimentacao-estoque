@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimentação de Estoque</title>
+</head>
+<body>
+    <header>
+        <h1>Movimentação de Estoque</h1>
+    </header>
+    <main>
+        <div>
+            <label for="quantidade" accesskey="q"
+                >Qtd.</label>
+            <input id="quantidade" />
+            <label for="codigo" accesskey="c"
+                >Cód. Produto</label>
+            <input id="codigo" />
+            <button id="adicionar" >Adicionar</button>
+        </div>
+        <table id="itens" >
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Cód. Produto</th>
+                    <th>Descrição</th>
+                    <th>Qtd</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div>
+            <button id="enviar" >Enviar</button>
+        </div>
+    </main>
+    <script src="dist/index.js" type="module" ></script>
+</body>
+</html>

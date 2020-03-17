@@ -1,0 +1,26 @@
+{
+  "name": "mov-estoque",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx ttsc",
+    "test": "npx jest",
+    "test:watch": "npx jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^25.1.3",
+    "@zoltu/typescript-transformer-append-js-extension": "^1.0.1",
+    "jest": "^25.1.0",
+    "parcel": "^1.12.4",
+    "ts-jest": "^25.2.1",
+    "ttypescript": "^1.5.10",
+    "typescript": "^3.8.3"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  }
+}
